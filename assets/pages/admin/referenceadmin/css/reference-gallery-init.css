@@ -1,0 +1,37 @@
+
+.progress-bar-container
+{
+        float: left;
+	display: block;
+	width: 240px;
+	padding: 2px 5px;
+	margin: 2px 0;
+	border: 1px inset #446;
+	border-radius: 5px;
+}
+
+.progress-bar
+{
+	background: #0c0 none 0 0 no-repeat;
+        min-height: 16px;
+}
+
+.gallery-admin-list, .gallery-img {
+    float: left;
+    width: 1000px;    
+}
+
+.gallery-img {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.gallery-img-img {
+    float: left;
+    padding-right: 20px;
+}
+
+.gallery-img-texts {
+   float: left;
+   width: 840px;
+}

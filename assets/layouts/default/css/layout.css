@@ -1,0 +1,697 @@
+ 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+
+        *,html {
+            margin: 0px;
+            border: 0px;    
+            font-family: 'Open Sans Condensed', sans-serif;
+            
+        } 
+        
+        .clear { clear: both; }
+        
+      /* Custom container */
+      
+      body {background-color: #f5f5f7; }
+      
+      .holder {
+        width: 100%;
+        min-width: 1100px;        
+        margin: 0 auto;
+        
+      }
+      
+      a {color:#80b3e0}
+      a:hover {color:#7db1e1}
+      
+      .header {
+         background-color:  #f5f5f7;
+         float: left;
+         width: 100%;
+      }    
+          
+      div.logo {
+          float: left;
+             
+             
+          background-image: url(../images/logo.png);
+          
+          background-repeat: no-repeat;
+      }    
+      
+      #logo {
+          text-decoration: none;
+          height: 74px;
+          display: block;
+          width: 280px;
+          
+      }
+      #logo span { visibility: hidden; }
+      
+      .menu {
+          
+          height: 60px; 
+          float: left;    
+          text-transform: uppercase;
+          margin-top: 5px;
+      }    
+      
+      
+      div.menuInner {       
+          float: left;    
+         
+      }    
+      
+      ul.menuList {
+          list-style: none;
+          margin: 0px;  
+          padding: 0px;
+          float: left;
+      }    
+      
+      ul.menuList li {    
+          float: left;
+          margin: 0px;  
+               
+          margin-top: 10px;
+          height: 16px;  
+          font-size: 1.1em;
+          margin-right:10px;
+      }
+      
+      ul.menuList li a {    
+        color: #808080;
+        background-repeat: no-repeat;
+        background-position: left 5px;
+        display: block;
+        padding: 11px;   
+        padding-left: 31px;
+        padding-right: 20px;
+        padding-bottom: 22px;
+      }
+      
+      
+      ul.menuList li a:hover {
+          color: #c33131;
+      }
+      
+      ul.menuList li.activeMenuItem {        
+          
+      }    
+      
+      ul.menuList li.activeMenuItem a {
+          color: #c82f34;
+      }
+
+      #news {
+          background-image: url('../images/ico_novinky.png');
+          background-position: 5px 12px;
+      }
+      a#news:hover {
+          background-image: url('../images/ico_novinky_.png');
+          background-position: 5px 12px;
+      }         
+      
+      #profil {
+          background-image: url('../images/icon_profil.png');
+          background-position: 5px 5px;
+      }
+      a#profil:hover {
+          background-image: url('../images/icon_profil_hover.png');
+          background-position: 5px 5px;
+      }      
+      
+      #katalog {
+          background-image: url('../images/icon_katalog.png');
+      }
+      .menuItemActive a#katalog, a#katalog:hover {
+          background-image: url('../images/icon_katalog_hover.png');
+      }
+      a.hover {
+          background-image: url('../images/icon_katalog_hover.png') !important;
+      }
+      
+      #znacky {
+          background-image: url('../images/icon_znacky.png');
+      }
+      a#znacky:hover {
+          background-image: url('../images/icon_znacky_hover.png');
+      }
+            
+      #sluzby {
+          background-image: url('../images/icon_sluzby.png');
+          background-position: 2px 5px;
+      }
+      a#sluzby:hover {
+          background-image: url('../images/icon_sluzby_hover.png');
+          background-position: 2px 5px;
+      }
+      
+      
+      #reference {
+          background-image: url('../images/icon_realizace.png');
+      }
+      a#reference:hover {
+          background-image: url('../images/icon_realizace_hover.png');
+      }
+      
+      #kontakt {
+          background-image: url('../images/icon_kontakt.png');
+      }
+      a#kontakt:hover {
+          background-image: url('../images/icon_kontakt_hover.png');
+      }
+      
+     ul#nav .subs {
+	    background-color:#343434;
+	    
+	    display:none;
+	    float:left;
+	    left:0;
+	    padding:10px 6px 6px;
+	    position:absolute;
+	    top:56px;
+	    width:600px;
+            padding-bottom: 20px;
+            z-index: 100;
+	}
+	ul#nav li:hover>* {
+	    display:block;
+	}
+	ul#nav li:hover {
+	    position:relative;
+            
+	}
+        ul#nav li:hover a {
+            background-color:#343434;
+        }
+              
+  	ul#nav  .subs a {
+	    padding: 10px;
+            margin: 0px;
+            display: block;
+            width: 130px;
+            padding-top: 80px;
+            float: left;
+            text-align: center;
+            font-size: 0.9em;
+            color: #808080;
+            background-repeat: no-repeat;
+            background-position: center 22px;
+            text-decoration: none;
+            margin-bottom: 20px;
+	}      
+      
+        ul#nav .subs a:hover {
+            color: #84b0e1;
+            text-decoration: none;
+        }
+         
+        a#jidelny { background-image: url('../images/jidelny_0.png'); }
+        a#jidelny:hover { background-image: url('../images/jidelny_1'); }
+        a#kuchyne { background-image: url('../images/kuchyne_0.png'); }
+        a#kuchyne:hover { background-image: url('../images/kuchyne_1.png'); }
+        a#obyvaci-pokoje { background-image: url('../images/obyvaci_0.png'); }
+        a#obyvaci-pokoje:hover { background-image: url('../images/obyvaci_1.png'); }
+        a#loznice { background-image: url('../images/loznice_0.png'); }
+        a#loznice:hover { background-image: url('../images/loznice_1.png'); }
+        a#koupelny { background-image: url('../images/koupelny_0.png'); }
+        a#koupelny:hover { background-image: url('../images/koupelny_1.png'); }
+        a#terasy { background-image: url('../images/zahrady_0.png'); }
+        a#terasy:hover { background-image: url('../images/zahrady_1.png'); }
+        a#osvetleni { background-image: url('../images/osvetleni_0.png'); }
+        a#osvetleni:hover { background-image: url('../images/osvetleni_1.png'); }
+        a#satny { background-image: url('../images/satny_0.png'); }
+        a#satny:hover { background-image: url('../images/satny_1.png'); }
+        a#dvere { background-image: url('../images/dvere_0.png'); }
+        a#dvere:hover { background-image: url('../images/dvere_1.png'); }
+        a#koberce { background-image: url('../images/koberce_0.png'); }
+        a#koberce:hover { background-image: url('../images/koberce_1.png'); }
+        a#sedaci-soupravy { background-image: url('../images/sedacky_0.png'); }
+        a#sedaci-soupravy:hover { background-image: url('../images/sedacky_1.png'); }        
+        a#doplnky { background-image: url('../images/doplnky_0.png'); }
+        a#doplnky:hover { background-image: url('../images/doplnky_1.png'); }        
+        a#stoly-a-zidle { background-image: url('../images/stoly_0.png'); }
+        a#stoly-a-zidle:hover { background-image: url('../images/stoly_1.png'); }        
+        
+        
+        
+      #contentHolder {
+          width:100%;
+          float: left;   
+          background-color: white;
+          
+      }
+   
+      
+      
+      #contentInnerHolder {
+                 padding: 40px;
+                 max-width: 1100px;
+      }
+      
+      .hpznacka #contentInnerHolder, .katalog #contentInnerHolder { padding: 0px !important; max-width: 5500px !important;}
+      
+      .hpznacka .autofillscreen-gallery-info, .katalog #contentKatalog {padding-left: 40px;padding-right: 40px;max-width: 900px }            
+      .hpznacka h1, .hpznacky-collum-content, .hpznacka h2, .katalog h1 { padding-left: 40px  }
+      .hpznacka #breadCrumbsHolder, .katalog #breadCrumbsHolder { padding-left: 40px !important;padding-top:40px;  }
+      
+      
+      
+      
+      
+      
+      
+      .znacky #contentInnerHolder { max-width: 5500px !important;}
+      
+      .home #contentInnerHolder { padding:0px !important; max-width: 5500px !important; }
+      
+      #breadCrumbsHolder {
+          padding-bottom: 15px;
+          font-size: 0.9em;
+          text-transform: uppercase;
+      }            
+      
+      .lastBreadCrumb, #breadCrumbsHolder a,#content {
+          color: #7f7f7f;
+      }
+      
+      h1 { 
+          color: #c9c9c9; 
+          font-size: 1.6em; 
+          font-weight: normal; 
+          text-transform: uppercase;
+      }
+      
+      .footerMenu {
+          width: 100%;
+          float: left;
+          
+          background-color: #f5f5f7;                    
+      }    
+      
+      #footerCopy {
+          float: right;
+          padding-right: 40px;
+          border-left: 2px solid #ffffff;
+          padding-left: 60px;
+          background-image: url('../images/icon_shop.png');
+          background-repeat: no-repeat;
+          background-position: 15px 6px;
+          display: block;
+          text-decoration: none;
+          color: #7e7e7e;
+          padding-top: 12px;
+          padding-bottom: 10px;
+          font-size: 1.2em;
+          margin-top: 5px;
+      }
+      
+      a#footerNapiste {
+          background-image: url('../images/icon_napiste.png');
+          background-repeat: no-repeat;
+          background-position: 0px 6px;          
+          float: right;
+          margin-top: 9px;
+          margin-right: 15px;
+          padding-left: 43px;
+          color: #808080;
+          text-transform: uppercase;
+          font-size: 1.1em;
+      }
+      
+      a#footerNapiste:hover {
+          background-image: url('../images/icon_napiste_hover.png');
+      }
+      
+      #footerLogo {
+          margin-top: 7px;
+          float: left;          
+          padding-left: 40px;
+          text-transform: uppercase;
+          padding-top: 12px;
+          font-size: 1.1em;
+          color: #7e7e7e;
+          text-decoration: none;
+      }
+      
+      
+      #footerSocial {
+          border-left: 2px solid #ffffff;
+          padding: 10px;
+          float: right;
+      }
+      
+      #pLink {
+          background-image: url('../images/icon_p.png');
+          background-repeat: no-repeat;
+          background-position: 0px 4px;
+          display: block;
+          text-decoration: none;
+          color: #7e7e7e;       
+          width: 36px;
+          height: 42px;
+          float: left;
+      }
+
+      a#pLink:hover {
+          background-image: url('../images/icon_p_hover.png');
+      }      
+      
+      #facebookLink {
+          background-image: url('../images/icon_fb.png');
+          background-repeat: no-repeat;
+          background-position: 0px 4px;
+          display: block;
+          text-decoration: none;
+          color: #7e7e7e;      
+          height: 40px;
+          width: 36px;
+          float: left;
+          margin-right:7px;
+      }
+      
+      a#facebookLink:hover {
+          background-image: url('../images/icon_fb_hover.png');
+      }
+      
+      
+      
+   
+
+/**
+* content
+*/
+
+h1 {
+    padding-bottom: 15px;
+    
+}
+
+p {
+    padding-bottom:14px;
+    
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    
+}
+
+    #kontaktHolder {
+        float: left;
+        width: 930px;
+        
+        color: #7e7e7e;
+
+    }
+    
+    #kontaktHolder h2 {
+        color: #818181;
+        
+        font-size: 1.1em;
+        text-transform: uppercase;
+        padding-bottom: 7px;
+    }
+    
+    #kontakt-map {
+        float: right;        
+        
+        width: 270px;
+        
+    }
+    
+    #kontakt-info {
+        float: left;
+        
+    }
+    
+    #kontakt-adresa {
+        float: left;
+        padding-right: 40px;
+    }
+    
+    #kontakt-email {
+        float: left;
+        padding-right: 40px;
+    }
+    
+    #kontakt-email a { color: #80b3e0; } 
+    
+    #kontakt-tel {
+        float: left;
+        padding-right: 40px;
+    }
+    
+    #kontakt-doba {
+        clear: left;
+        padding-top: 20px;
+        background-image: url(../images/kontakt.png);
+        background-repeat: no-repeat;
+        background-position: right 20px;
+        width: 630px;
+        padding-bottom: 90px;
+    }
+    
+    #kontakt-partneri a, #kontakt-partneri span {
+        color: #b1b1b1;
+    }
+    
+    
+    /**
+    * katalog rozcestnik
+    */
+    .katalog-rozcestnik {
+        padding-left: 40px;
+        width: 860px;
+        float: left;
+    }
+    
+    .katalog-rozcestnik-item {
+        padding-right: 30px;
+        padding-bottom: 27px;
+        float: left;
+    }
+    
+    .katalog-rozcestnik img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .katalog-rozcestnik-item-title {
+         text-align: center;
+    }
+    
+    .katalog-rozcestnik-item-title a {
+         color: #7f7f7f;
+         font-size: 1.1em
+             
+    }
+    
+ /**
+  * auto fill screen gallery
+  */
+     .autofillscreen-gallery-info {
+        width: 900px;
+    }   
+    
+    .autofillscreen-gallery-holder {
+        position: relative;        
+        min-height: 420px;
+        margin-bottom: 10px;
+        overflow-x:  hidden;
+    }
+    
+    .autofillscreen-gallery-nav-holder {
+        height: 40px;
+        width:90px;margin:0 auto;
+    }
+    
+    .autofillscreen-outtop {
+        position: absolute;
+        height:10px;
+        width: 100%;        
+        background-color: white;
+        left: 0%;
+        top: 0px;  
+    }
+     .autofillscreen-outbot {
+         display: none;
+    }
+    
+    
+    .img-zero {
+        position: absolute;
+        width: 24%;
+        margin-right:1%;        
+        left: -38%;
+        top: 0px;  
+    }
+    
+    .img-first { 
+        position: absolute;
+        width: 24%;
+        margin-right:1%;
+        left: -13%;
+        top: 0px;
+    }
+
+    .img-sec { 
+        position: absolute;
+        width: 24%;
+        margin-right:1%;
+        left: 12%;
+        top: 0px;
+    }
+    
+     .img-third { 
+        position: absolute;
+        width: 24%;
+        margin-right:1%;
+        left: 37%;
+        top: 0px;        
+    }
+    
+     .img-four { 
+        position: absolute;
+        width: 24%;
+        margin-right:1%;
+        left: 62%;
+        top: 0px;
+    }
+    .img-fifth { 
+        position: absolute;
+        width: 24%;
+        margin-right:1%;
+        left: 87%;
+        top: 0px;
+    }
+
+    .img-six { 
+        position: absolute;
+        width: 24%;
+        margin-right:1%;
+        left: 112%;
+        top: 0px;
+    }
+    
+    .img-holder {
+        height: 260px;
+        background-size: 100% 100%;
+        width: 100%;   
+    }
+    
+    .img-title, .img-footer {
+        text-align: center;
+    }
+    
+    .img-footer a {
+        color: #c33131;
+    }
+
+    .img-overlay {
+        display:block;width:100%;height:300px;opacity:0.5;background-color:white;
+    }
+    
+    .img-holder {
+        cursor: pointer;
+    }
+    
+ /**
+ * lightGallery
+ */
+#lightGallery-overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+    background-color: #22697d;
+    z-index: 90000;        
+}
+
+#lightGallery-holder {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    z-index: 100000; 
+    
+    background-color: white;
+    
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;    
+    
+    margin-bottom: 25px;
+} 
+
+#lightGallery-header {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#lightGallery-close {
+    float: right;
+}
+
+#lightGallery-img {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+#lightGallery-goleft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 600px;
+    display: block;
+}
+a#lightGallery-goleft:hover {
+    background-image: url(../images/lightgallery/gallery_det_left.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}    
+    
+#lightGallery-goright {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 350px;
+    height: 600px;
+    display: block;
+}
+a#lightGallery-goright:hover {
+    background-image: url(../images/lightgallery/gallery_det_right.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}    
+
+#lightGallery-footer {
+    width: 100%;
+    min-height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+#lightGallery-footer a {
+        color: #c33131;
+        font-size: 1.2em
+    }
+    
+    
+    .hpznacka strong {
+        font-size: 1.5em;
+    }   

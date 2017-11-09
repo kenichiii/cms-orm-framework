@@ -1,0 +1,27 @@
+
+.reference-holder {
+    float: left;
+    width: 1050px;
+}
+
+.reference-foto-holder {
+    padding: 20px;
+}
+
+.reference-collum {
+   float: left;
+   width: 1050px;    
+}
+
+
+
+.reference-collum-value {
+    float: left;
+    min-width: 200px;
+}
+
+.reference-collum-title {
+    width: 50px;
+    float: left;
+}
+

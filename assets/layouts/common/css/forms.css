@@ -1,0 +1,31 @@
+
+
+.model-form-holder {
+    width: 600px;
+    float: left;
+}
+
+.model-form-row {    
+    float: left;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.model-form-collum-title {    
+    float: left;
+    width: 130px;
+}
+
+.model-form-collum-cell {    
+    float: left;
+}
+
+.model-form-collum-cell input[type='text'], .model-form-collum-cell input[type='password'],
+.model-form-collum-cell select, .model-form-collum-cell textarea {
+    width: 350px;
+    border: 1px solid #22697d;
+    padding: 10px;
+}
+
+.model-form-collum-cell input.idate { width: 70px !important;}
+.model-form-collum-cell select.idatetime { width: 30px !important;}

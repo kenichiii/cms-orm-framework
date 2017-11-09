@@ -1,0 +1,12 @@
+
+.txtmodelbit { width: 30px !important; }
+
+.txtmodelstring, 
+.txtmodelint, 
+.txtmodelbit,
+.txtmodelprice
+{ height: 23px; }
+
+.txtmodeltext, 
+.txtmodelserialized
+{ height: 200px; }

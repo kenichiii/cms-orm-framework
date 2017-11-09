@@ -1,0 +1,12 @@
+
+
+    .rels ul,.collums ul {
+        list-style: circle;
+        padding-left: 25px;
+    }
+
+    #model-datatable-form .datatablecollums ul li {
+        padding: 7px;
+    }
+    
+    .odd { background-color: lightgray }

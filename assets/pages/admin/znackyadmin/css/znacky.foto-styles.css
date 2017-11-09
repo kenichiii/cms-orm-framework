@@ -1,0 +1,17 @@
+.znacky-foto-progress-bar-container
+{
+        float: left;
+	display: block;
+	width: 240px;
+	padding: 2px 5px;
+	margin: 2px 0;
+	border: 1px inset #446;
+	border-radius: 5px;
+}
+
+.znacky-foto-progress-bar
+{
+	background: #0c0 none 0 0 no-repeat;
+        min-height: 16px;
+}
+

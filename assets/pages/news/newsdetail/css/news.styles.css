@@ -1,0 +1,54 @@
+
+.news-holder {
+    float: left;
+    width: 1050px;
+}
+
+    
+.news-foto-holder {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+.news-collum {
+    width:1050px;
+    float: left;
+}
+
+.news-collum-value {
+    float: left;
+    width: 700px;
+}
+
+.news-collum-perex, .news-collum-obsah {
+    
+    width: 1050px;
+}
+
+.hasFoto .news-collum {
+    width:570px;
+    float: left;
+}
+
+.hasFoto .news-collum-value {
+    float: left;
+    width: 430px;
+}
+
+.hasFoto .news-collum-perex, .hasFoto .news-collum-obsah, .hasFoto .news-collum {
+    min-width:520px;
+    
+}
+
+
+
+.news-collum-title {
+    width: 50px;
+    float: left;
+}
+
+.news-collum-datum {
+    padding-bottom: 10px;
+}

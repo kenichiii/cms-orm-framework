@@ -1,0 +1,20 @@
+
+#vypnutí magic quotes
+php_flag magic_quotes_gpc Off
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} ^/docs/_cache/img
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f  
+RewriteRule ^(.+)\.jpg$ index.php?magickcacheimg=$1 [L]
+
+
+# -- pravidlo na osetreni odkazu zadanych bez koncoveho lomitka --
+# pokud se nejedna o pozadavek na soubor
+RewriteCond %{REQUEST_URI} !\..*$
+# a pozadavek neni zakonceny lomitkem
+RewriteCond %{REQUEST_URI} [^/]$
+# k pozadavku se prida lomitko a presmeruje se
+RewriteRule ^(.+)$ /$1/ [L,R=301,QSA]
+
+RewriteRule !\.(js|ico|gif|jpg|png|htm|css|flv|swf|pdf|zip|doc|xls|xml|html|f4v|txt|woff|ttf)$ index.php

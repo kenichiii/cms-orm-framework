@@ -1,0 +1,10 @@
+
+
+
+    #znacky-holder { min-width: 1186px; background-color: white; }
+    #znacky-holder img { padding: 15px; }
+    #znacky-holder a {color: #808080;}
+    
+    .znacka {
+        min-height: 385px;
+    }

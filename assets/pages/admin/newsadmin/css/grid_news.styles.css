@@ -1,0 +1,39 @@
+.grid_news-holder {
+    
+}
+        
+        
+.grid_news-list {
+    width: 900px;
+    float: left;
+}
+
+.grid_news-item {
+    width: 400px;
+    float: left;
+    padding-right: 25px;
+}
+
+.grid_news-item-photo-holder {
+    
+}
+
+.grid_news-item-photo {
+    float: left;
+    padding-right: 15px;
+    width:150px;
+}
+
+.grid_news-item-body {
+    width: 335px;
+    float: left;
+}
+
+.grid_news-item-holder {
+
+}
+
+.grid_news-item-more-href {
+    float: right;
+}
+

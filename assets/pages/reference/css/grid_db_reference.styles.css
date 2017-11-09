@@ -1,0 +1,89 @@
+
+.grid_db_reference-holder, .grid_db_reference-list-line {
+    width: 1050px;
+    float: left;
+    padding-bottom: 25px;
+}
+
+.grid_db_reference-item {
+    width: 470px;
+    float: left;
+    padding-right: 80px;
+}
+
+.grid_db_reference-list-line .lastItemInLine {
+    padding-right: 0px;    
+}
+
+.grid_db_reference-item-photo-holder {
+
+}
+
+.grid_db_reference-item-photo {
+    float: left;
+    padding-right: 30px;
+    width:120px;
+}
+
+.grid_db_reference-item-body {
+    width: 250px;
+    float: left;
+}
+
+.grid_db_reference-item-holder {
+
+}
+
+.grid_db_reference-item h2 {
+    font-size: 1.2em;
+}
+
+.grid_db_reference-item-holder p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid_db_reference-item h2 a {
+
+}
+
+a.grid_db_reference-item-more-href {
+    display:block;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color:#532a2a;
+}
+
+.pagingInner {
+    float: left;
+}
+
+.paging, .pagingActive {
+    display: block;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #f1f1f1;
+    border-left: 0px;
+    float: left;
+    font-size: 1.2em;
+    color: #582c2c;
+}
+
+.pagingFirst {
+    border-left: 2px solid #f1f1f1;
+}
+
+.paging span {
+    color:#683737
+}
+
+.grid_db_news-paging-holder {
+    float: left;
+    width: 1050px;
+}
+
+.pagingActive {
+    background-color: #f1f1f1;
+    color: #582c2c;
+}

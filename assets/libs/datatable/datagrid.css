@@ -1,0 +1,202 @@
+
+.dataGridTable {
+    border: 1px solid #e2e0d4;
+    padding: 3px;
+
+}
+
+.dataGridHead {
+   
+    }
+
+
+
+.dataGridTitle {
+    color: #203E5F;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    display: block;
+}
+
+.dataGridSorting {
+    float: left;
+    display: block;
+    border: 0px !important;
+    
+    background-image: none;
+    background: none !important;
+}
+
+.dataGridSortUp {
+    margin-left: 5px;
+    float: left;
+}
+
+.dataGridSortDown {
+    float: left;
+}
+
+.dataGridNextMonth {
+    border: 0px;
+    background-color:transparent;
+}
+
+.dataGridFilterKey {
+    width: 55px;
+}
+
+.dataGridFilterDate {
+    width: 135px;
+}
+
+.dataGridFilterDate select {
+    display:none;
+}
+
+
+.dataGridFilterDate input {
+    width: 65px;
+}
+
+.dataGridFilterDateNextButton {
+    border:0px;
+    background-color:transparent;
+}
+
+.dataGridFilterDateNextButton span {
+    float:right;
+    margin-right:8px;
+}
+
+.dataGridPerPageChooser {
+    float:right;
+}
+
+.dataGridPerPageChooser input {
+ width:17px;
+}
+
+
+.dataGridTable td {
+    color: #232b2f;
+    padding:5px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.dataGridOddLine {
+    background-color: #f9f9f6;
+}
+
+.dataGridSelectedCollum {
+     background-color: #e2e0d4;
+}
+
+.dataGridActiveLine {
+     background-color: #e2e0d4;
+}
+
+.dataGridActiveLine .dataGridSelectedCollum {
+    background-color: white;
+    color: black;
+}
+
+.dataGridAction {
+    display:block;
+    float:left;
+    width:16px;
+    height:16px;
+    margin-right:6px
+}
+
+.dataGridAddButton span {
+    float: left;
+}
+
+td.dataGridAddButton {
+    border: 1px solid #e2e0d4;
+}
+
+.dataGridSubmitButton span {
+    float: left;
+}
+
+td.dataGridSubmitButton {
+    border: 1px solid #e2e0d4;
+}
+
+.dataGridHead .id input {
+    width:55px;
+}
+
+.dataGridCheckBoxActionsChooser div {
+    float:left;
+    padding-right:3px;
+}
+
+.dataGridCommonActionSubmit {
+    float: left;
+}
+
+.dataGridCollumBit {
+    margin-left:25px;
+    padding:2px;
+    font-weight:bold;
+}
+
+.dataGridPaging {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.dataGridPagingPages {
+
+    float: left;
+    margin: 2px;
+}
+
+.dataGridPagingArrowsLeft {
+    float: left;
+    margin: 2px;
+}
+
+.dataGridPagingArrowsRight {
+    float: left;
+    margin: 2px;
+}
+
+a.pagingActive {
+    background-color: #fee;
+    background-image: none;
+    color: black;
+    float: left;
+    display: block;
+    margin: 1px;
+    text-decoration:none;
+    height: 22px;
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a.paging {
+    text-decoration: none;
+    float: left;
+    display: block;
+    margin: 1px;
+    height: 22px;
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clear { clear: both; }
+
+.form_err {
+   color: red;
+}
+
+.err { border:1px solid red }

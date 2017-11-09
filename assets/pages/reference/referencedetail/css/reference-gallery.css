@@ -1,0 +1,11 @@
+
+.reference-gallery-list {
+    float: left;
+    width: 900px;
+}
+
+.reference-gallery-img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}

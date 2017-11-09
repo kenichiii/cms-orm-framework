@@ -1,0 +1,37 @@
+
+.hpznacky-holder {
+    float: left;
+    width: 900px;
+}
+
+.hpznacky-foto-holder {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hpznacky-collum {
+    width:820px;
+    float: left;
+}
+
+.hpznacky-collum-value {
+    float: left;
+    min-width: 600px;
+}
+
+.hasFoto .hpznacky-collum {
+    width:455px;
+    float: left;
+}
+
+.hasFoto .hpznacky-collum-value {
+    float: left;
+    width: 350px;
+}
+
+.hpznacky-collum-title {
+    width: 100px;
+    float: left;
+}
+

@@ -1,0 +1,11 @@
+
+.news-gallery-list {
+    float: left;
+    width: 1150px;
+}
+
+.news-gallery-img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
